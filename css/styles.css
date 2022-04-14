@@ -10,9 +10,8 @@
   --order-background: #2f303a;
   --border-color: #EEEEEE;
   --icon-color: #AFB1B8;
-  --icon-color-hover: #EEEEEE;
+  --icon-color-hover: #FFFFFF;
   --icon-social-color: #FFFFFF;
-
 
 
 }
@@ -177,7 +176,6 @@ img{
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  /* background-color: var(--order-background); */
   margin-bottom: 30px;
 
 }
@@ -369,7 +367,7 @@ img{
 .our-team .icon.list .item:hover,
 .our-team .icon.list .item:focus{
   cursor: pointer;
-  fill: var(--icon-social-color);
+  fill: var(--icon-color-hover);
   background-color: var(--acsent-color);
 
 }
