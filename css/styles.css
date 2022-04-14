@@ -528,12 +528,16 @@ padding: 20px 24px;
 
 
         /* Footer */
-
 .footer {
   background-color: var(--footer-background);
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.container.footer{
+  display: flex;
+  padding: 0;  
+}
+
 .logo-foot {
   color: #ffffff;
   font-family: 'Raleway';
@@ -580,6 +584,7 @@ padding: 20px 24px;
   color: var(--acsent-color);
 }
 /* Социальные сети */
+
 .social .title{
   font-weight: 700;
   font-size: 14px;
@@ -587,15 +592,15 @@ padding: 20px 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--border-color);
+  margin-top: 12px;
 }
-.social.list{
-  display: flex;
-  text-align: center;
-
+.logo-address{
+  margin-right: 70px;
 }
 .social .icon.list{
   display: flex;
   align-items: center;
+  margin-top: 20px;
 
 }
 .social .icon.list .item{
@@ -607,8 +612,6 @@ padding: 20px 24px;
   border-radius: 50%;
   fill: var(--icon-social-color);
   background: rgba(255, 255, 255, 0.1);
-
-  
 
 }
 .social .icon.list .item:not(:last-child){
