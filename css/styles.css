@@ -11,6 +11,7 @@
   --border-color: #EEEEEE;
   --icon-color: #AFB1B8;
   --icon-color-hover: #EEEEEE;
+  --icon-social-color: #FFFFFF;
 
 
 
@@ -343,12 +344,12 @@ img{
   margin-bottom: 16px;
 
 }
-.icon.list{
+.our-team .icon.list{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.icon.list .item{
+.our-team .icon.list .item{
   width: 44px;
   height: 44px;
   padding: 12px;
@@ -361,16 +362,16 @@ img{
     margin-bottom: 30px;
 
 }
-.icon.list .item:not(:last-child){
+.our-team .icon.list .item:not(:last-child){
   margin-right: 10px;
  
 }
-.icon.list .item:hover,
-.icon.list .item:focus{
+.our-team .icon.list .item:hover,
+.our-team .icon.list .item:focus{
   cursor: pointer;
   fill: var(--icon-color-hover);
 }
-.icon.list .item:hover{
+.our-team .icon.list .item:hover{
   background-color: var(--acsent-color);
   
 }
@@ -577,4 +578,49 @@ padding: 20px 24px;
 .contacts:hover,
 .contacts:focus{
   color: var(--acsent-color);
+}
+/* Социальные сети */
+.social .title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--border-color);
+}
+.social.list{
+  display: flex;
+  text-align: center;
+
+}
+.social .icon.list{
+  display: flex;
+  align-items: center;
+
+}
+.social .icon.list .item{
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  padding: 12px;
+  box-shadow: none;
+  border-radius: 50%;
+  fill: var(--icon-social-color);
+  background: rgba(255, 255, 255, 0.1);
+
+  
+
+}
+.social .icon.list .item:not(:last-child){
+  margin-right: 10px;
+ 
+}
+.social .icon.list .item:hover,
+.social .icon.list .item:focus{
+  cursor: pointer;
+  fill: var(--icon-social-color);
+}
+.social .icon.list .item:hover{
+  background-color: var(--acsent-color);
+  
 }
