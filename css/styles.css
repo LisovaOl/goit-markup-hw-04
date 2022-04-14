@@ -9,6 +9,10 @@
   --footer-background: #2f303a;
   --order-background: #2f303a;
   --border-color: #EEEEEE;
+  --icon-color: #AFB1B8;
+  --icon-color-hover: #EEEEEE;
+
+
 
 }
 
@@ -138,7 +142,7 @@ img{
   margin-left: 50px;
   
 }
-.icon{
+.author .icon{
   margin-right: 10px;
   fill: var(--text-color);
 }
@@ -318,7 +322,6 @@ img{
 }
 .name.post{
   padding-top: 30px;
-  padding-bottom: 30px;
 
 }
 .our-team .name{
@@ -336,9 +339,46 @@ img{
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  margin-bottom: 0;
+  margin-bottom: 16px;
 
 }
+.icon.list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon.list .item{
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  box-shadow: none;
+  border-radius: 50%;
+  fill: var(--icon-color);
+
+}
+.our-team.icon.list{
+    margin-bottom: 30px;
+
+}
+.icon.list .item:not(:last-child){
+  margin-right: 10px;
+ 
+}
+.icon.list .item:hover,
+.icon.list .item:focus{
+  cursor: pointer;
+  fill: var(--icon-color-hover);
+}
+.icon.list .item:hover{
+  background-color: var(--acsent-color);
+  
+}
+
+
+
+
+
+
       /* Кнопки фильтра */
 
 .filtr.list {
