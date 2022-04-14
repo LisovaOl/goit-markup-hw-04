@@ -129,12 +129,22 @@ img{
 }
 
 .author .link{
+  display: flex;
+  align-items: center;
   color: #757575;
 }
 
 .author .item + .item{
   margin-left: 50px;
   
+}
+.icon{
+  margin-right: 10px;
+  fill: var(--text-color);
+}
+.author .icon:hover,
+.author .icon:focus{
+  fill: var(--acsent-color);
 }
           /* Блок решения 
           с кнопкой заказать услугу   */
