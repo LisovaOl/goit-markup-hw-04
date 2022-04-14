@@ -369,11 +369,9 @@ img{
 .our-team .icon.list .item:hover,
 .our-team .icon.list .item:focus{
   cursor: pointer;
-  fill: var(--icon-color-hover);
-}
-.our-team .icon.list .item:hover{
+  fill: var(--icon-social-color);
   background-color: var(--acsent-color);
-  
+
 }
 
 /* Постоянные клиенты */
