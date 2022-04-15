@@ -160,7 +160,7 @@ img{
   background-color: #C4C4C4;
   background-image: linear-gradient(
     to top, rgba(47,48,58,0.4), rgba(47,48,58,0.4)
-  ), url(./images/index/bgimage.jpg);
+  ), url(/images/index/bgimage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -237,16 +237,16 @@ img{
   margin-bottom: 30px;
 }
 .item.antenna::before{
-  background-image: url(./images/icons/antenna.svg);
+  background-image: url(/images/icons/antenna.svg);
 }
 .item.clock::before{
-  background-image: url(./images/icons/clock.svg);
+  background-image: url(/images/icons/clock.svg);
 }
 .item.diagram::before{
-  background-image: url(./images/icons/diagram.svg);
+  background-image: url(/images/icons/diagram.svg);
 }
 .item.astronaut::before{
-  background-image: url(./images/icons/astronaut.svg);
+  background-image: url(/images/icons/astronaut.svg);
 }
 
 
