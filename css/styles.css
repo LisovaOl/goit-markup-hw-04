@@ -386,12 +386,11 @@ img{
   box-shadow: none;
   fill: var(--icon-color);
   border: 1px solid #AFB1B8;
-box-sizing: border-box;
-border-radius: 4px;
+  border-radius: 4px;
 
 }
 .clients .item:not(:last-child){
-margin-right: 30px;
+    margin-right: 30px;
 }
 
 
@@ -502,7 +501,7 @@ margin-right: 30px;
 }
 
 .item .border{
-padding: 20px 24px;
+  padding: 20px 24px;
 
 /* Установит стили правой рамки */
   border-right-width: 1px;
