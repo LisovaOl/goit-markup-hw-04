@@ -144,19 +144,14 @@ img{
 }
 .author .icon{
   margin-right: 10px;
-  fill: var(--text-color);
-}
-.author .icon:hover,
-.author .icon:focus{
-  fill: var(--acsent-color);
+  fill: currentColor;
 }
           /* Блок решения 
           с кнопкой заказать услугу   */
 
 .order {
   max-width: 1600px;
-  min-height: 600px;
-  margin: auto;
+  margin: 0 auto;
   background-color: #C4C4C4;
   background-image: linear-gradient(
     to top, rgba(47,48,58,0.4), rgba(47,48,58,0.4)
@@ -222,33 +217,17 @@ img{
 } 
 .properties .item{
   width: 270px;
-
 }
         /* Иконки картинки   */
-.properties .item::before{
-  display: block;
-  content: '';
+.properties .icons{
   width: 270px;
   height: 120px;
   background-color: #F5F4FA;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.item.antenna::before{
-  background-image: url(../images/icons/antenna.svg);
-}
-.item.clock::before{
-  background-image: url(../images/icons/clock.svg);
-}
-.item.diagram::before{
-  background-image: url(../images/icons/diagram.svg);
-}
-.item.astronaut::before{
-  background-image: url(../images/icons/astronaut.svg);
-}
-
 
 
 .properties .item:not(:last-child){
@@ -313,16 +292,20 @@ img{
 
 .our-team .item{
   width: 270px;
+  height: 428px;
   box-shadow: 
   0px 1px 3px rgba(0, 0, 0, 0.12), 
   0px 1px 1px rgba(0, 0, 0, 0.14), 
   0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: var(--icon-social-color);
+
 
 
 }
 .name.post{
   padding-top: 30px;
-
+  padding-bottom: 30px;
+  margin: 0;
 }
 .our-team .name{
   font-weight: 500;
@@ -346,6 +329,7 @@ img{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ffffff;
 }
 .our-team .icon.list .item{
   width: 44px;
@@ -356,10 +340,10 @@ img{
   fill: var(--icon-color);
 
 }
-.our-team.icon.list{
+/* .our-team.icon.list{
     margin-bottom: 30px;
 
-}
+} */
 .our-team .icon.list .item:not(:last-child){
   margin-right: 10px;
  
