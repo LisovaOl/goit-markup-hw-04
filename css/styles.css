@@ -299,13 +299,11 @@ img{
   0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: var(--icon-social-color);
 
-
-
 }
-.name.post{
+.our-team .name.post{
   padding-top: 30px;
   padding-bottom: 30px;
-  margin: 0;
+  margin-bottom: 0;
 }
 .our-team .name{
   font-weight: 500;
@@ -317,7 +315,7 @@ img{
 
 }
 
-.our-team .post{
+.our-team .text{
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -325,34 +323,36 @@ img{
   margin-bottom: 16px;
 
 }
-.our-team .icon.list{
+.our-team .soc-list{
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
 }
-.our-team .icon.list .item{
+.our-team .soc-list .item{
   width: 44px;
   height: 44px;
   padding: 12px;
   box-shadow: none;
   border-radius: 50%;
-  fill: var(--icon-color);
-
 }
-/* .our-team.icon.list{
-    margin-bottom: 30px;
+.soc-list .icon{
+  fill: var(--icon-color);
+}
 
-} */
-.our-team .icon.list .item:not(:last-child){
+
+.soc-list .item:not(:last-child){
   margin-right: 10px;
  
 }
-.our-team .icon.list .item:hover,
-.our-team .icon.list .item:focus{
-  cursor: pointer;
-  fill: var(--icon-color-hover);
+.soc-list .item:hover,
+.soc-list .item:focus{
   background-color: var(--acsent-color);
+  fill: var(--icon-color-hover);
+}
+.soc-list .icon:hover,
+.soc-list .icon:focus{
+  fill: var(--icon-color-hover);
 
 }
 
