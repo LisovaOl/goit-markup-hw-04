@@ -387,7 +387,8 @@ img{
 .clients-item:not(:last-child){
   margin-right: 30px;
 }
-.clients-link:hover{
+.clients-link:hover,
+.clients-link:focus{
   border-color: var(--acsent-color);
   color: var(--acsent-color);
 
