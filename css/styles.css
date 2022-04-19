@@ -323,35 +323,37 @@ img{
   margin-bottom: 16px;
 
 }
-.our-team .soc-list{
+
+.soc-list{
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: #ffffff;
 }
-.our-team .soc-list .item{
+.soc-link{
   width: 44px;
   height: 44px;
   padding: 12px;
-  box-shadow: none;
   border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+
 }
-.soc-list .icon{
+.soc-icon{
   fill: var(--icon-color);
+
 }
+.soc-link:hover,
+.soc-link:focus {
+  cursor: pointer;
+  background-color: var(--acsent-color);
+  outline: none;
 
-
-.soc-list .item:not(:last-child){
+}
+.soc-item:not(:last-child){
   margin-right: 10px;
  
 }
-.soc-list .item:hover,
-.soc-list .item:focus{
-  background-color: var(--acsent-color);
-  fill: var(--icon-color-hover);
-}
-.soc-list .icon:hover,
-.soc-list .icon:focus{
+
+.soc-icon:hover,
+.soc-icon:focus{
   fill: var(--icon-color-hover);
 
 }
@@ -362,6 +364,8 @@ img{
 
 }
 .clients-link{
+  display: flex;
+  justify-content: center;  
   width: 170px;
   height: 92px;
   padding: 16px 32px;
@@ -369,10 +373,6 @@ img{
   border-radius: 4px;
 }
 .clients-icon{
-  width: 106px;
-  height: 60px;
-  vertical-align: bottom;
-
   fill: var(--icon-color); 
 }
 .clients-item:not(:last-child){
